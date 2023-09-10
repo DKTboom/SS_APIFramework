@@ -1,0 +1,64 @@
+2023-09-06T12:06:56,186 [main] INFO  (Listener.java:21) - 
+ Method =>POST
+ URI =>https://petstore.swagger.io/v2/user
+ Request body =>{"id":527804008,"username":"carmelo.daniel","firstName":"Wade","lastName":"Emard","email":"enoch.damore@example.com","password":"09zn1x6","phone":"458.998.5328","userStatus":0}
+ Response body =>{
+    "code": 200,
+    "type": "unknown",
+    "message": "527804008"
+}
+2023-09-06T12:06:57,828 [main] INFO  (Listener.java:21) - 
+ Method =>GET
+ URI =>https://petstore.swagger.io/v2/user/carmelo.daniel
+ Request body =>null
+ Response body =>{
+    "id": 527804008,
+    "username": "carmelo.daniel",
+    "firstName": "Wade",
+    "lastName": "Emard",
+    "email": "enoch.damore@example.com",
+    "password": "09zn1x6",
+    "phone": "458.998.5328",
+    "userStatus": 0
+}
+2023-09-06T12:06:59,566 [main] INFO  (Listener.java:21) - 
+ Method =>PUT
+ URI =>https://petstore.swagger.io/v2/user/carmelo.daniel
+ Request body =>{"id":527804008,"username":"carmelo.daniel","firstName":"Wei","lastName":"Emard","email":"enoch.damore@example.com","password":"09zn1x6","phone":"458.998.5328","userStatus":0}
+ Response body =>{
+    "code": 200,
+    "type": "unknown",
+    "message": "527804008"
+}
+2023-09-06T12:07:01,204 [main] INFO  (Listener.java:21) - 
+ Method =>GET
+ URI =>https://petstore.swagger.io/v2/user/carmelo.daniel
+ Request body =>null
+ Response body =>{
+    "id": 527804008,
+    "username": "carmelo.daniel",
+    "firstName": "Wei",
+    "lastName": "Emard",
+    "email": "enoch.damore@example.com",
+    "password": "09zn1x6",
+    "phone": "458.998.5328",
+    "userStatus": 0
+}
+2023-09-06T12:07:02,741 [main] INFO  (Listener.java:21) - 
+ Method =>DELETE
+ URI =>https://petstore.swagger.io/v2/user/carmelo.daniel
+ Request body =>null
+ Response body =>{
+    "code": 200,
+    "type": "unknown",
+    "message": "carmelo.daniel"
+}
+2023-09-06T12:07:04,379 [main] INFO  (Listener.java:21) - 
+ Method =>GET
+ URI =>https://petstore.swagger.io/v2/user/carmelo.daniel
+ Request body =>null
+ Response body =>{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
